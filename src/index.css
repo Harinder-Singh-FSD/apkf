@@ -1,13 +1,146 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.logo-header {
+  width: 80px;
+}
+.navbar-custom {
+  background-color: white;
+}
+.nav-links {
+  margin-left: 30px;
+  color: black;
+}
+#donate-button {
+  background-color: orange;
+  color: black;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+.nav-links:hover {
+  border-bottom: 2px solid black;
+}
+.carousel {
+  height: 500px;
+}
+.footer {
+  padding: 50px;
+}
+
+.footer-social {
+  margin-left: 10px;
+  color: gray;
+  font-size: small;
+}
+.footer-social:hover {
+  color: black;
+}
+.footer-copyright {
+  font-size: small;
+}
+
+.footer-top-img {
+  padding-top: 20px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.footer-address {
+  text-align: center;
+  border-top: 0.5px solid gray;
+}
+.footer-address-bottom {
+  text-align: left;
+  margin-left: 100px;
+  line-height: 0.2;
+}
+.footer-address-bottom p {
+  font-size: small;
+}
+.about-us-header {
+  background-color: #0281b8;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  margin: 3rem 0;
+}
+.about-us-content {
+  margin-top: 50px;
+}
+.about-us-content p {
+  text-align: justify;
+}
+.header {
+  border-bottom: 0.5px solid gray;
+}
+.project-subtitle {
+  background-color: orange;
+  color: white;
+  margin-bottom: 30px;
+}
+.project-content {
+  line-height: 2.5;
+  text-align: justify;
+}
+
+.medical-aid-images {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.medical-aid-images img {
+  width: 400px;
+  margin: 20px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  align-items: center;
+}
+.contact-items {
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin:20px
+}
+.address{
+ margin-top: 20%;
+ text-align: left;
+}
+.address-title{
+  color:orange;
+  font-weight: 800;
+}
+.donation-list{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.our-mission-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.our-mission-list div img{
+  width:150px;
+  height:130px
+}
+.our-mission-list div p{
+  margin-top:15px;
+  color:black
+}
+
+
