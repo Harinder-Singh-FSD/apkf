@@ -24,8 +24,8 @@ const Completed = () => {
             <br />
           </p>
           <div className="medical-aid-images">
-            <img src="https://res.cloudinary.com/dvc56ayit/image/upload/v1625944662/new8_ss97qy.jpg" />
-            <img src="https://res.cloudinary.com/dvc56ayit/image/upload/v1625944661/new7_hknq7e.jpg" />
+            <img src="https://res.cloudinary.com/dvc56ayit/image/upload/v1625944662/new8_ss97qy.jpg" className="project-images"/>
+            <img src="https://res.cloudinary.com/dvc56ayit/image/upload/v1625944661/new7_hknq7e.jpg" className="project-images"/>
           </div>
         </div>
       </Container>

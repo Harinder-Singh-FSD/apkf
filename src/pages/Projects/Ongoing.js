@@ -49,8 +49,7 @@ const Ongoing = () => {
         </div>
         <img
           src="https://res.cloudinary.com/dvc56ayit/image/upload/v1625931160/new2_iuulxc.jpg"
-          height="300px"
-          width="100%"
+          className="project-ongoing-pic"
         />
         <hr />
         <div className="about-us-content">
@@ -66,8 +65,8 @@ const Ongoing = () => {
             cases. <br />
           </p>
           <div className="medical-aid-images">
-            <img src="https://res.cloudinary.com/dvc56ayit/image/upload/v1625941532/new3_kgkqis.jpg" />
-            <img src="https://res.cloudinary.com/dvc56ayit/image/upload/v1625941532/new4_lmzoro.jpg" />
+            <img src="https://res.cloudinary.com/dvc56ayit/image/upload/v1625941532/new3_kgkqis.jpg" className="project-images"/>
+            <img src="https://res.cloudinary.com/dvc56ayit/image/upload/v1625941532/new4_lmzoro.jpg" className="project-images"/>
           </div>
         </div>
 
@@ -84,30 +83,8 @@ const Ongoing = () => {
             blankets and other items of day to day necessity. <br />
           </p>
           <div className="medical-aid-images">
-            <img src="https://res.cloudinary.com/dvc56ayit/image/upload/v1625942954/new6_aixhgc.jpg" />
-            <img src="https://res.cloudinary.com/dvc56ayit/image/upload/v1625942952/new5_aaivy5.jpg" />
-          </div>
-        </div>
-
-        <hr />
-        <div className="about-us-content">
-          <div className="project-subtitle">
-            <h2>OXYGEN RELIEF</h2>
-          </div>
-          <p className="project-content">
-            <strong>Akaal Purakh Ki Fauj</strong> have recognised the need of the hour and have
-            started sewa of Oxygen to COVID-19 patients for free.
-            <br />
-            More then 400+ Cylinder were given for with the refundable security.
-            <br />
-            Drive thru was set up at Fateh Divas Park Opp Pacific Mall
-            <br />
-            Support the cause so we can save more lives
-            <br />
-          </p>
-          <div className="medical-aid-images">
-            <img src="https://res.cloudinary.com/dvc56ayit/image/upload/v1625944662/new8_ss97qy.jpg" />
-            <img src="https://res.cloudinary.com/dvc56ayit/image/upload/v1625944661/new7_hknq7e.jpg" />
+            <img src="https://res.cloudinary.com/dvc56ayit/image/upload/v1625942954/new6_aixhgc.jpg" className="project-images"/>
+            <img src="https://res.cloudinary.com/dvc56ayit/image/upload/v1625942952/new5_aaivy5.jpg" className="project-images"/>
           </div>
         </div>
       </Container>

@@ -50,9 +50,9 @@ const AboutUs = () => {
           While the efforts of APKF it continues to provide livelihoods, disaster relief, access to basic human rights and Education to all.
           </p>
         </div>
-        <Row style={{display:'flex',justifyContent:'space-between'}}>
+        <Row style={{display:'flex',justifyContent:'space-evenly',flexWrap:"wrap"}}>
             {Team.map(item=>{
-                return <Col lg={3} style={{margin:"20px"}}><ProfileCard data={item}/></Col>
+                return <Col lg={4} md={5} xl={3} style={{margin:"20px"}}><ProfileCard data={item}/></Col>
             })}
         </Row>
       </Container>

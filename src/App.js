@@ -1,7 +1,6 @@
 import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import JoinUs from "./components/JoinUs";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import Donation from "./pages/Donation";

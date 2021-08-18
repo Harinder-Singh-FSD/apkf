@@ -27,7 +27,7 @@ const Header = () => {
               DONATE NOW
             </Nav.Link>
           </Nav>
-          <Nav>
+          <div className="header-social">
             <Nav.Link href="https://twitter.com/AkaalKi"><i class="fab fa-twitter"></i></Nav.Link>
             <Nav.Link  href="https://www.facebook.com/akaalpurakhkifaujdelhi">
             <i class="fab fa-facebook"></i>
@@ -38,7 +38,7 @@ const Header = () => {
             <Nav.Link href="https://www.youtube.com/channel/UCu307t8PlC1kwdAgO8ulDRA">
             <i class="fab fa-youtube"></i>
             </Nav.Link>
-          </Nav>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
