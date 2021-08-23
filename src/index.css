@@ -33,11 +33,11 @@ code {
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
 }
-.footer-social-list{
+.footer-social-list {
   display: flex;
-  justify-content: space-evenly
+  justify-content: space-evenly;
 }
 
 .footer-social {
@@ -120,39 +120,39 @@ code {
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  margin:20px
+  margin: 20px;
 }
-.address{
- margin-top: 10%;
- text-align: center;
+.address {
+  margin-top: 10%;
+  text-align: center;
 }
-.address-title{
-  color:orange;
+.address-title {
+  color: orange;
   font-weight: 800;
 }
-.donation-list{
+.donation-list {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-.our-mission-list{
+.our-mission-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: flex-end;
 }
-.our-mission-list div img{
-  width:150px;
-  height:130px
+.our-mission-list div img {
+  width: 150px;
+  height: 130px;
 }
-.our-mission-list div p{
-  margin-top:15px;
-  color:black
+.our-mission-list div p {
+  margin-top: 15px;
+  color: black;
 }
 
-.project-ongoing-pic{
-  height:300px;
-  width:100%;
+.project-ongoing-pic {
+  height: 300px;
+  width: 100%;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -160,34 +160,53 @@ code {
   .footer {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
   }
-   .nav-links{
+  .nav-links {
     text-align: left;
+    color: white !important;
+    border-bottom: none;
   }
   #donate-button {
     background-color: orange;
     color: black;
     padding: 8px 15px;
     border-radius: 20px;
-    width:fit-content;
+    width: fit-content;
   }
-  .header-social{
+  .header-social {
     display: inline-flex;
-    justify-content: space-evenly;
-    color: gray;
+    justify-content: left;
   }
   .project-content {
     line-height: 2;
     text-align: justify;
   }
-  .project-ongoing-pic{
-    height:200px;
-    width:100%;
+  .project-ongoing-pic {
+    height: 200px;
+    width: 100%;
   }
-  .project-images{
-    height:30vw;
-    width:25vh;
+  .project-images {
+    height: 30vw;
+    width: 25vh;
+  }
+  .header-menu {
+    background-color: blue;
+    float: right;
+    width: fit-content;
+    padding: 10px;
+    z-index: 1000;
+    position: absolute;
+    left:45%;
+    top:90%
+  }
+  #collasible-nav-dropdown{
+    color: white !important;
+    border: none !important;
+    
+  }
+  .nav-links:hover{
+    border-bottom: none;
   }
 }
 
@@ -196,19 +215,20 @@ code {
   .footer {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
   }
-   .nav-links{
+  .nav-links {
     text-align: left;
+    border-bottom: none;
   }
   #donate-button {
     background-color: orange;
     color: black;
     padding: 8px 15px;
     border-radius: 20px;
-    width:fit-content;
+    width: fit-content;
   }
-  .header-social{
+  .header-social {
     display: inline-flex;
     justify-content: space-evenly;
     color: gray;
@@ -217,13 +237,29 @@ code {
     line-height: 2;
     text-align: justify;
   }
-  .project-ongoing-pic{
-    height:200px;
-    width:100%;
+  .project-ongoing-pic {
+    height: 200px;
+    width: 100%;
   }
-  .project-images{
-    height:30vw;
-    width:25vh;
+  .project-images {
+    height: 30vw;
+    width: 25vh;
+  }
+  .header-menu {
+    background-color: blue;
+    float: right;
+    width: fit-content;
+    padding: 20px;
+    z-index: 1000;
+    position: absolute;
+    left:70%
+  }
+  .nav-links {
+    text-align: left;
+    color: white !important;
+  }
+  .nav-links:hover{
+    border-bottom: none;
   }
 }
 
@@ -232,16 +268,15 @@ code {
   .footer-social {
     display: flex;
     flex-direction: column;
-    margin:auto;
+    margin: auto;
     color: gray;
     font-size: small;
-    
   }
-  .footer{
+  .footer {
     display: flex;
     justify-content: space-between;
   }
-  .nav-links{
+  .nav-links {
     text-align: left;
   }
   #donate-button {
@@ -249,39 +284,39 @@ code {
     color: black;
     padding: 8px 15px;
     border-radius: 20px;
-    width:fit-content;
+    width: fit-content;
   }
-  .header-social{
+  .header-social {
     display: inline-flex;
     justify-content: space-evenly;
     color: gray;
   }
-  .project-images{
-    height:30vw;
-    width:25vh;
+  .project-images {
+    height: 30vw;
+    width: 25vh;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .nav-links{
+  .nav-links {
     font-size: 12px;
   }
-  .our-mission-list{
+  .our-mission-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
   }
-  .our-mission-list div img{
-    width:180px;
-    height:150px
+  .our-mission-list div img {
+    width: 180px;
+    height: 150px;
   }
-  .profile-card{
-    width:150px;
+  .profile-card {
+    width: 150px;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
-
+@media only screen and (min-width: 1200px) {
+}
