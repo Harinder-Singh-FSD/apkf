@@ -190,24 +190,24 @@ code {
     height: 30vw;
     width: 25vh;
   }
-  .header-menu {
-    background-color: blue;
-    float: right;
-    width: fit-content;
-    padding: 10px;
+  .header-menu{
+    background-color:blue;
+    padding:20px;
     z-index: 1000;
     position: absolute;
-    left:45%;
-    top:90%
+    right:5%;
+    top:90%;
+  }
+  .carousel {
+    height: 300px;
   }
   #collasible-nav-dropdown{
-    color: white !important;
-    border: none !important;
-    
+    color:white !important;
   }
-  .nav-links:hover{
+  .nav-links:hover {
     border-bottom: none;
   }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -245,26 +245,11 @@ code {
     height: 30vw;
     width: 25vh;
   }
-  .header-menu {
-    background-color: blue;
-    float: right;
-    width: fit-content;
-    padding: 20px;
-    z-index: 1000;
-    position: absolute;
-    left:70%
-  }
-  .nav-links {
-    text-align: left;
-    color: white !important;
-  }
-  .nav-links:hover{
-    border-bottom: none;
-  }
+ 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .footer-social {
     display: flex;
     flex-direction: column;
@@ -295,6 +280,21 @@ code {
     height: 30vw;
     width: 25vh;
   }
+  .header-menu{
+    background-color:blue;
+    padding:20px;
+    z-index: 1000;
+    position: absolute;
+    right:5%;
+    top:90%;
+  }
+  .carousel {
+    height: 300px;
+  }
+  .nav-links:hover {
+    border-bottom: none;
+  }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

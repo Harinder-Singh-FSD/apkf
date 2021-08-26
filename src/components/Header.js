@@ -11,13 +11,13 @@ const Header = () => {
             <Nav.Link href="/" className="nav-links">HOME</Nav.Link>
             <Nav.Link href="about_us" className="nav-links">ABOUT US</Nav.Link>
             <NavDropdown title="PROJECTS" id="collasible-nav-dropdown" className="nav-links">
-              <NavDropdown.Item href="/projects/ongoing">ONGOING</NavDropdown.Item>
+              <NavDropdown.Item href="/projects/ongoing" className="collasible-nav-dropdown">ONGOING</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/projects/completed">
+              <NavDropdown.Item href="/projects/completed" className="collasible-nav-dropdown">
                 COMPLETED
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/projects/never_ending">NEVER ENDING</NavDropdown.Item>
+              <NavDropdown.Item href="/projects/never_ending" className="collasible-nav-dropdown">NEVER ENDING</NavDropdown.Item>
               <NavDropdown.Divider />
             </NavDropdown>
             <Nav.Link href="/contact_us" className="nav-links">CONTACT</Nav.Link>
@@ -28,6 +28,7 @@ const Header = () => {
               DONATE NOW
             </Nav.Link>
           </Nav>
+          <Nav.Link>
           <div className="header-social">
             <Nav.Link href="https://twitter.com/AkaalKi"><i class="fab fa-twitter"></i></Nav.Link>
             <Nav.Link  href="https://www.facebook.com/akaalpurakhkifaujdelhi">
@@ -40,7 +41,9 @@ const Header = () => {
             <i class="fab fa-youtube"></i>
             </Nav.Link>
           </div>
+          </Nav.Link>
         </Navbar.Collapse>
+    
       </Container>
     </Navbar>
   );
