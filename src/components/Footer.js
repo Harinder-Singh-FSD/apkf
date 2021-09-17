@@ -8,11 +8,11 @@ const Footer = () => {
           <div className="footer-top-img"><img src="https://res.cloudinary.com/dvc56ayit/image/upload/v1629221759/logo-min_ribx0h.png" className="logo-header"/>
           <p>Akaal Purakh Ki Fauj</p></div>
           <div className="footer-address-bottom">
-              <p>F 6/1 SECOND FLOOR</p>
-              <p>MALVIYA NAGAR</p>
-              <p>DELHI, INDIA</p>
+              <p>F 6/1 Second Floor</p>
+              <p>Malviya Nagar</p>
+              <p>Delhi, India</p>
               <p>Phone : +91 - 7271997199</p>
-              <p>Email : Akaalpurakhkifauj.05@Gmail.Com</p>
+              <p>Email : akaalpurakhkifauj.05@gmail.com</p>
           </div>
       </div>
       <Navbar expand="lg">

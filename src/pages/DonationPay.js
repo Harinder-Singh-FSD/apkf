@@ -1,40 +1,37 @@
 import React from "react";
-import PayCard from "../components/PayCard";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col,Container } from "react-bootstrap";
 const DonationPay = () => {
   const data = [
     {
       imgUrl:
-        "https://www.searchpng.com/wp-content/uploads/2019/02/Paytm-Logo-With-White-Border-PNG-image-715x227.png",
-      title: "Paytm",
-      details: "7271997199",
+        "https://res.cloudinary.com/dvc56ayit/image/upload/v1631897005/WhatsApp_Image_2021-09-15_at_22.39.38_ydmjpl.jpg",
     },
     {
       imgUrl:
-        "https://www.xda-developers.com/files/2020/11/Google-Pay-logo-1900x700_c.jpg",
-      title: "GPay",
-      details: "7271997199",
+        "https://res.cloudinary.com/dvc56ayit/image/upload/v1631897004/WhatsApp_Image_2021-09-15_at_22.39.39_yu5v3w.jpg",
     },
     {
       imgUrl:
-        "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR2_5TQlvVrFlz0Iu-avBJmuuMRPfFbi0GChD53-WG-ekaCSKmLmKUbDwGRTvKTm6QkWPw1rzzK1Ge09w4FGKmvn9TjI3ZNOzbtfsdVRuKyz9nShUBefocK&usqp=CAE",
-      title: "Online Payment",
-      details: "www.instamojo.com/@akaalpurakhkifauj",
-    },
-    {
-      imgUrl:
-        "https://logos-download.com/wp-content/uploads/2016/06/Yes_Bank_logo.png",
-      title: "Bank Transfer",
-      details: "",
+        "https://res.cloudinary.com/dvc56ayit/image/upload/v1631897003/WhatsApp_Image_2021-09-15_at_22.39.40_qb7fg2.jpg",
     },
     
   ];
   return (
-    <div className="donation-list">
+    
+    <Container>
+      <div className="about-us-header">
+          <h2>PLEASE DONATE & SUPPORT</h2>
+        </div>
+    <Row>
+
       {data.map(item=>{
-            return <div><PayCard data={item}/></div>
+            return <Col xl={6} lg={6} md={6} sm={12} xs={12}>
+            <img src = {item.imgUrl} className="donation-image"/>
+            </Col>
         })}
-    </div>
+     
+    </Row>
+    </Container>
   );
 };
 

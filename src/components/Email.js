@@ -31,28 +31,28 @@ const Email = () => {
           </Alert>:null
       }
     <Form onSubmit={handleSubmit} style={{alignItems:"center"}}>
-      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+      <Form.Group className="mb-1" controlId="exampleForm.ControlInput1">
         <Form.Control
           type="text"
           placeholder="Full Name"
           name="name"
         />
       </Form.Group><br/>
-      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+      <Form.Group className="mb-1" controlId="exampleForm.ControlInput1">
         <Form.Control
           type="email"
           placeholder="name@example.com"
           name="email"
         />
       </Form.Group><br/>
-      <Form.Group className="mb-3">
+      <Form.Group className="mb-1">
         <Form.Control
           type="number"
           placeholder="Number"
           name="number"
         />
       </Form.Group><br/>
-      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+      <Form.Group className="mb-1" controlId="exampleForm.ControlTextarea1">
         <Form.Control
           as="textarea"
           rows={4}

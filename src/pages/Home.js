@@ -9,9 +9,9 @@ const Home = () => {
         <div>
             <CarouselDisplay/>
             <Container>
-            <Row style={{marginTop:"20px",justifyContent:"center"}}>
-            <Col lg={7} style={{marginTop:"20px"}}><OurMission/></Col>
-            <Col lg={4} style={{marginTop:"20px"}}><FBPage/></Col>
+            <Row style={{margin:"20px",justifyContent:"center",padding:'10px'}}>
+            <Col lg={7} style={{margin:"20px"}}><OurMission/></Col>
+            <Col lg={4} style={{margin:"20px"}}><FBPage/></Col>
             </Row>
 
             </Container>

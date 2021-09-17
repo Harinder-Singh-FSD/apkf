@@ -7,7 +7,7 @@ const OurMission = () => {
       <div className="project-subtitle">
         <h2>OUR MISSION</h2>
       </div>
-      <div style={{textAlign: 'center'}}>
+      <div style={{textAlign: 'justify'}}>
         <p>
           We wish to share whatever we have with those who need it the most,
           Akaal Purakh Ki Fauj is built upon the following pillars:

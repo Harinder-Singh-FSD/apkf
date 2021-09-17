@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family:'Roboto', sans-serif; 
 }
 
 code {
@@ -9,14 +10,19 @@ code {
 }
 
 .logo-header {
-  width: 80px;
+  width: 8vw;
 }
 .navbar-custom {
   background-color: white;
 }
 .nav-links {
-  margin-left: 30px;
+  margin-left: 0.5vw;
   color: black;
+  font-size: 1.4vw !important;
+}
+.donation-image{
+  width:100%;
+  margin: 20px;
 }
 #donate-button {
   background-color: orange;
@@ -28,7 +34,7 @@ code {
   border-bottom: 2px solid black;
 }
 .carousel {
-  height: 500px;
+  height: 700px;
 }
 .footer {
   display: flex;
@@ -38,6 +44,11 @@ code {
 .footer-social-list {
   display: flex;
   justify-content: space-evenly;
+  color:blue;
+}
+.footer-social-list a{
+
+  color:blue;
 }
 
 .footer-social {
@@ -59,6 +70,7 @@ code {
   display: flex;
   align-items: center;
   text-align: left;
+  margin-left: 50px;
 }
 .footer-address {
   text-align: center;
@@ -66,7 +78,7 @@ code {
 }
 .footer-address-bottom {
   text-align: left;
-  margin-left: 100px;
+  margin-left: 150px;
   line-height: 0.2;
 }
 .footer-address-bottom p {
@@ -124,7 +136,7 @@ code {
 }
 .address {
   margin-top: 10%;
-  text-align: center;
+  text-align: left;
 }
 .address-title {
   color: orange;
@@ -142,12 +154,13 @@ code {
   align-items: flex-end;
 }
 .our-mission-list div img {
-  width: 150px;
-  height: 130px;
+  width: 120px;
+  height: 120px;
 }
 .our-mission-list div p {
   margin-top: 15px;
   color: black;
+
 }
 
 .project-ongoing-pic {
@@ -155,8 +168,28 @@ code {
   width: 100%;
 }
 
+.contactus-page{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .donation-image{
+    width:100%;
+    margin: 0;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   .footer {
     display: flex;
     justify-content: center;
@@ -207,6 +240,7 @@ code {
   .nav-links:hover {
     border-bottom: none;
   }
+
 
 }
 
@@ -308,15 +342,14 @@ code {
     justify-content: space-between;
     align-items: flex-end;
   }
-  .our-mission-list div img {
-    width: 180px;
-    height: 150px;
-  }
   .profile-card {
     width: 150px;
   }
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+  }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}
