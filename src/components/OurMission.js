@@ -15,19 +15,19 @@ const OurMission = () => {
       </div>
       <div className="our-mission-list">
           <div>
-          <img src="https://media.giphy.com/media/KDYB0cH4HW8xc3VIAx/giphy.gif"/>
+          <img src="https://res.cloudinary.com/dvc56ayit/image/upload/v1632155458/WhatsApp_Image_2021-09-20_at_15.42.42_1_ee9grc.jpg"/>
           <p>Education For All</p>
           </div>
           <div>
-          <img src="https://media1.giphy.com/media/wOOwPGk74nOhCRmWZq/200w.gif?cid=82a1493bijfzamofsqatz2c2ly0hfvcq63ro1tdbpdy4higm&rid=200w.gif"/>
+          <img src="https://res.cloudinary.com/dvc56ayit/image/upload/v1632155457/WhatsApp_Image_2021-09-20_at_15.42.42_2_eiij6v.jpg"/>
           <p>Livelihood for all</p>
           </div>
           <div>
-          <img src="https://c.tenor.com/9JCypSI3hoUAAAAi/democracyrising-our-time-now.gif"/>
+          <img src="https://res.cloudinary.com/dvc56ayit/image/upload/v1632155460/WhatsApp_Image_2021-09-20_at_15.42.41_qtvo0q.jpg"/>
           <p>Empowerment for all</p>
           </div>
           <div>
-          <img src="https://www.acaps.ma/sites/default/files/prevoyance-protection.jpg"/>
+          <img src="https://res.cloudinary.com/dvc56ayit/image/upload/v1632155459/WhatsApp_Image_2021-09-20_at_15.42.42_yxprhj.jpg"/>
           <p>Welfare for All</p>
           </div>
       </div>
