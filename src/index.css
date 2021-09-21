@@ -199,6 +199,8 @@ code {
     text-align: left;
     color: white !important;
     border-bottom: none;
+    font-size: 12px !important;
+    padding:5px;
   }
   #donate-button {
     background-color: orange;
